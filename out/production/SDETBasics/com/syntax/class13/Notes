@@ -1,0 +1,25 @@
+                          String class:
+String is a combination of different characters. It is wrapped in double quotes. It can have spaces, numbers or special characters
+String datatype is written with the uppercase unlike other data types that begin with lower cases
+String is the most widely used class in java. It helps us store and manipulate Text based data.
+
+                              String Immutability
+The way String class works: before any string variable is created, java goes into the computer memory and checks if there is already a memory location that contains the same variable.
+If it finds one, it will not create a new variable instead it will point your intended variable to the same memory location.
+Java does this to save space (shares a memory location across multiple variables). This posses an issue as a change in the memory location will affects other string stakeholders that rely on the same memory location
+To curb this possibility, change restriction;String Immutability was put in place.
+
+String is immutable. This means their values can not be changed. String does not even allow its methods make changes
+Anytime we try to change the value or perform any kind of operation that may induce change on a memory location, a new string is created in the memory where this change is stored
+
+The disadvantage however is that our programmes will get slow hence more time will be required to process
+
+
+                        StringBuilder class
+String Builders are mutable. Any change induced on them will change the existing sequence of character created in the memory.
+StringBuilder can be used to manipulate text data type
+
+if for instance we need to store information of individuals living in the US e.g FN. LN, State.There is a high chance of multiple ppl have the same FN and LN or even same state.
+Sometimes we care more about the speed than the space. This is when the stringBuilder comes in. String builder does not check for anything it just goes and creates the variable.
+The disadvantage is that there will be tendencies to keep declaring, recreating multiple variables with the same values.
+

@@ -1,0 +1,45 @@
+Methods in Java:
+    Method is a block of code. or some java statements grouped together.
+Why we should learn about the methods:
+    Methods help us reduce the amount of code that we have to write. For example if a piece of code
+    is being repeated. We can create a method for it and simple call that method
+    whenever we need that logic again.
+Syntax of creating a method:
+    we can create methods only inside a class.
+    [datatype] [method name] [(datatype variableName)][method body]
+    [datatype] can be void boolean String int etc.
+    [method name] They are like variable names.
+    [(datatype variableName)] used to pass data while calling a  method.
+How do we decide that we should use void or a method with a return keyword1:
+    If we are building a method that will be used by others or in other parts of your code which
+    require some data from your method like an if condition we should not create methods with void
+    type
+
+    String str="hello";
+    	int length=str.length();
+    	if(!str.isEmpty()&&length%2!=0&&length>=3) {
+
+    		int middleIndex=length/2;
+    		System.out.println(str.charAt(middleIndex));
+    	}
+
+Methods can be created only inside a class
+
+TYPES OF METHODS IN JAVA
+1. Built-in Methods
+2. User-defined Methods
+
+                            Methods without Parameters
+This type of methods do not have their parenthesis empty. Hence when the method is called nothing will be passed in the parenthesis. They are not that dynamic because they will always print whatever you have out in the method
+What if we want to pass some information when calling a method and want that logic to be printed. for that we create methods that contain parameters in their parenthesis.
+
+                            Methods with Parameters
+This type of methods have parameters in their parenthesis . Hence when the method is called we will pass the parameter. They are dynamic methods. They take information from the parenthesis
+
+                            Methods with Return Values
+For This type of methods, when they are called, they return a type of value that can be used in a logic. This type of methods can be assigned a variable.
+Whatever datatype you are planning to return from a method, you need to define it before hand. Hence you start your methode with that datatype
+
+                            Methods without Return Values
+For This type of methods, when they are called, they do not return any type of value that can be used in a logic. This type of methods cannot be assigned a variable.
+This method start with "Void"
