@@ -1,0 +1,45 @@
+  Class:
+ A class is a template/Blueprint to create an object. an object can not be created without a class
+
+  What is the syntax for class?
+ We start with the class key word, then we write the name of the class, start curly braces and end curly braces
+
+ public class Car {
+
+ Inside a class we can have
+ variables (Attributes of the class)
+ Methods (Behavior of the class) Methods are verbs, they do something
+ etc.....right now the focus is non variables and methods
+ }
+
+ 1. we define attributes using variable e.g color, size, models
+ 2. we define behavior using methods.g make calls, listen to music, text, download
+
+
+ For e.g the phone class i can create Objects and objects can be as many as possible.
+ To create object we use the key word "new"
+
+        what is an Object?
+ Everything around us is an object for example keyboard, mouse,
+ glass, etc.
+ An Object in programming is very similar to the objects that we have in real life.
+ Object is a basic unit of object oriented programming and represents the real life entities inside of the computer
+
+ Objects have states that defines how the object looks like. we define the states of aan object inside a class with the help of Attributes/properties/fields inside a class.
+ Objects can also have behaviours(Things that object can do). We use methods to define these behaviors.
+
+
+           Object oriented programming:
+ Is just a way of writing programs.
+ Why we should learn OOP?
+ 1)It simplify the development of large programs.
+ 2)It will also help us maintain and modify the existing code.
+ 3)It helps use write more secure code
+ 4)It helps us avoid duplicate code.
+
+             Main pillars of OOP
+ 1)Classes and objects.
+ 2)Inheritance.
+ 3)Polymorphism.
+ 4)Abstraction.
+ 5)Encapsulation.
