@@ -1,4 +1,4 @@
-package com.syntax.class11.objectsandclass;
+package com.syntax.class11.classandobject;
 
 public class Person {
     String name;

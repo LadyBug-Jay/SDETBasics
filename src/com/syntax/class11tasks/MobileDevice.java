@@ -1,4 +1,4 @@
-package com.syntax.class11.Tasks;
+package com.syntax.class11tasks;
 
 public class MobileDevice {
     String make;
