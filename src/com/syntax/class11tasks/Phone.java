@@ -1,10 +1,14 @@
 package com.syntax.class11tasks;
 
 public class Phone {
+    /*
+	Create a Class “Phone”. Create 3 Objects of it: iPhone, Pixel,
+	Samsung with specific  attributes and behaviors.
+	*/
     String make;
     String model;
     String color;
-    int yearOfManufacture;
+    int year;
     int storage;
 
     // secondly define the behavior or thing it can be used for
